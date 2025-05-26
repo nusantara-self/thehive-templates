@@ -1,5 +1,9 @@
 # Slack Case Assignee Change Notifier
 
+## Preview
+
+![alt text](assets/slack-case-assignee-change.png)
+
 ## Use-case
 
 For each assignee change for a case in TheHive, create a Slack block message and link to the case. `<!here>` will inform only active users.
@@ -72,10 +76,6 @@ Trigger condition: This triggers when a case is updated with a new assignee valu
     }
 ]
 ```
-
-## Preview
-
-![alt text](assets/slack-case-assignee-change.png)
 
 ## Limitations
 

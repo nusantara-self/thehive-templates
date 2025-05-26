@@ -1,5 +1,9 @@
 # Slack Alert Creation Notifier
 
+## Preview
+
+![alt text](assets/slack-notifier-alert-creation.png)
+
 ## Use-case
 
 For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
@@ -67,6 +71,3 @@ An alert of type *{{object.type}}* has been created :\n- Title: *{{object.title}
     }
 ]
 ```
-## Preview
-
-![alt text](assets/slack-notifier-alert-creation.png)
