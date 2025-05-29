@@ -49,3 +49,14 @@ Functions are javascript scripts which automate actions in TheHive. They can be 
 - Periodically by the Alert Feeder to create alerts from an external source.
 
 See more about functions and how to create and manage them in the [public documentation page](https://docs.strangebee.com/thehive/user-guides/organization/functions/).
+
+## [External Integrations](./External%20Integrations/)
+
+A collection of community-contributed hands-on examples that connect TheHive / Cortex to popular third-party tools.
+
+Each integration folder may contain:
+- A `README.md` containing a summary of available identified integrations.
+- Ready-to-use use-cases / notifications / function examples.
+- Optional helper scripts (Python, Docker images, ...)
+
+>These resources are provided as-is and are not covered by StrangeBee support.  
