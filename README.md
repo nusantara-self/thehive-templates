@@ -1,9 +1,9 @@
 ![image](https://user-images.githubusercontent.com/32546144/170095170-b9c162d7-3281-42c1-bf6a-9381ce2ed5d6.png)
 
 
-# TheHive Templates
+# TheHive Resources
 
-A repository dedicated to the sharing of TheHive Templates. Contributions are welcome !
+A repository dedicated to the sharing of TheHive Resources. Contributions are welcome !
 
 
 ## [Case Templates](./Case%20Templates/)
