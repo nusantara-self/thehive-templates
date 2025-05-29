@@ -14,7 +14,7 @@ Filtered event - **CaseAssigneeChange**
 
 Trigger condition: This triggers when a case is updated with a new assignee value. This does not trigger on a case creation or when an alert is imported as a case.
 
-```
+```json
 {
     "_and": [
         {
@@ -42,7 +42,7 @@ Trigger condition: This triggers when a case is updated with a new assignee valu
 
 * Advanced settings : **Blocks template**
 
-```
+```json
 [
     {
       "type": "header",

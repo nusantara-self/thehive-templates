@@ -24,7 +24,7 @@ An alert of type *{{object.type}}* has been created :\n- Title: *{{object.title}
 
 * Advanced settings : **Blocks template**
 
-```
+```json
 [
     {
       "type": "header",
