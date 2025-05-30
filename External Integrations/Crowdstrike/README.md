@@ -51,3 +51,10 @@ Please find all the details [here](https://github.com/TheHive-Project/Cortex-Ana
 
 * Blog post: [**“Cortex-Analyzers 3.4.0 – Unleashing the Falcon”**](https://strangebee.com/blog/cortex-analyzers-3-4-0-unleashing-the-falcon/) (overview of all CrowdStrike analyzers & responders)
 * [**falconpy**](https://www.falconpy.io/Home.html) Python SDK
+
+## 4. Practical Use-Cases  
+<!-- USE_CASES:START -->
+Below are step-by-step guides for some common use-cases:
+
+* [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](use-cases/crwd-status-sync-removed.md)
+<!-- USE_CASES:END -->
