@@ -6,14 +6,14 @@ This Alert Feeder ingests Proofpoint Targeted Attack Protection (TAP) **clicksPe
 
 ## 0. Preview
 
-![Preview of TheHive Alert](assets/proofpoint-clicks-permitted-thehive-alert.png)
+![Preview of TheHive Alert - Clicks Permitted](assets/proofpoint-clicks-permitted-thehive-alert.png)
 ![Preview of TheHive Alert - Observables](assets/proofpoint-clicks-permitted-thehive-alert-observables.png)
 
 ## 1. Configure the Alert Feeder in TheHive
 
 * Go to: **Organization > Connectors > Alert Feeder > New**
 * **Name:** `ProofpointTAPAlertIngestion-clicksPermitted`
-* **Description:** Ingests Proofpoint TAP clicksPermitted events as actionable alerts in TheHive.
+* **Description:** Ingests Proofpoint TAP clicksPermitted events from the last hour as actionable alerts in TheHive.
 * **Method:** `GET`
 * **URL:**
 
