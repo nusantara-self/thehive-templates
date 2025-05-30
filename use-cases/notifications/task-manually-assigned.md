@@ -19,7 +19,7 @@ It **does not** trigger if the assignment happens as a side effect when the user
 
 ---
 
-## TheHive Notification Filter (JSON)
+## TheHive Notification Filter
 
 ```json
 {
