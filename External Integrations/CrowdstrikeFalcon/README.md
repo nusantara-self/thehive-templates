@@ -56,5 +56,5 @@ Please find all the details [here](https://github.com/TheHive-Project/Cortex-Ana
 <!-- USE_CASES:START -->
 Below are step-by-step guides for some common use-cases:
 
-* [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](use-cases/crwd-status-sync-removed.md)
+* [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](use-cases/crwd-status-sync.md)
 <!-- USE_CASES:END -->
