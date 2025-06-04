@@ -1,3 +1,13 @@
+// Name: JAMF Protect Alert Ingestion
+// Type: API
+// Desc: Ingests alerts from JAMF Protect. Extracts analytic details, host and user information, MITRE ATT&CK tags, and file/path data.
+//       The function constructs a TheHive alert, including: a title, markdown-formatted description (with original alert JSON), relevant observables (IP, hostname, file, hash, URL, FQDN, URI path, user agent), 
+//       MITRE ATT&CK enrichment, and a link to the JAMF alert. Handles default values and supports tagging and mapping of MITRE tactics for easier triage and investigation.
+//       For the setup in JAMF Protect, go to Configuration > Actions > *your action* > Add an HTTP data endpoint + your Authorization Header and Bearer as value 
+// Param: 
+// - input param is the json value that is passed when calling the function. Here it is the JAMF Protect alert details.
+// - context param is an object used to interact with TheHiveAPI.
+
 // Define the full array of MITRE ATT&CK tactics -- this will be used to match the correct tactic when multiple techniques are identified in the analytic
 const mitreAttackTactics = [
     "Reconnaissance",
@@ -173,6 +183,6 @@ ${JSON.stringify(input ?? {}, null, 2)}
         // ]
     };
 
-    // Call TheHive APIs, here alert creation
+    // Call TheHive Context API for alert creation
     return context.alert.create(theHiveAlert);
 }
