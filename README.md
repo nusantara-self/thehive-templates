@@ -52,11 +52,16 @@ See more about functions and how to create and manage them in the [public docume
 
 ## [External Integrations](./External%20Integrations/)
 
-A collection of community-contributed hands-on examples that connect TheHive / Cortex to popular third-party tools.
+A collection of hands-on examples that connect TheHive / Cortex to popular third-party tools.
 
 Each integration folder may contain:
 - A `README.md` containing a summary of available identified integrations.
 - Ready-to-use use-cases / notifications / function examples.
 - Optional helper scripts (Python, Docker images, ...)
 
->These resources are provided as-is and are not covered by StrangeBee support.  
+## [Use-cases](./use-cases/)
+
+Find ready-to-use notification filters, case management use-cases, and other practical TheHive examples in the [use-cases](./use-cases/) folder.
+
+- [Notifications](./use-cases/notifications/)
+- [Case Management](./use-cases/case-management/)

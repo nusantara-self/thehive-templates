@@ -4,6 +4,10 @@ This Alert Feeder ingests Proofpoint Targeted Attack Protection (TAP) **messages
 
 ---
 
+> ℹ️ **Note:**  
+> This integration is based solely on Proofpoint’s official documentation and has **not been tested in a live environment**. If you encounter issues, please open an issue or provide feedback.
+
+
 ## 0. Preview
 
 ![Preview of TheHive Alert - Messages Delivered](assets/proofpoint-messages-delivered-thehive-alert.png)

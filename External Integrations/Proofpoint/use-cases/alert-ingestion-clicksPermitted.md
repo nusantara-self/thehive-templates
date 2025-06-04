@@ -4,6 +4,10 @@ This Alert Feeder ingests Proofpoint Targeted Attack Protection (TAP) **clicksPe
 
 ---
 
+> ℹ️ **Note:**  
+> This integration is based solely on Proofpoint’s official documentation and has **not been tested in a live environment**. If you encounter issues, please open an issue or provide feedback.
+
+
 ## 0. Preview
 
 ![Preview of TheHive Alert - Clicks Permitted](assets/proofpoint-clicks-permitted-thehive-alert.png)
