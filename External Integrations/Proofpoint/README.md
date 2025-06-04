@@ -1,5 +1,7 @@
 # Proofpoint Integration
 
+![proofpoint logo](proofpoint.png)
+
 This folder contains practical resources for integrating Proofpoint with TheHive.
 
 ---

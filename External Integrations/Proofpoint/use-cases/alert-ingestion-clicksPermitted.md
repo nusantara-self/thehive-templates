@@ -1,3 +1,8 @@
+---
+title: Alert ingestion for Proofpoint TAP alerts – Clicks Permitted
+description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.
+tags: [proofpoint, tap, clicksPermitted, alert-ingestion]
+---
 # Proofpoint TAP Alert Feeder for TheHive - clicks permitted
 
 This Alert Feeder ingests Proofpoint Targeted Attack Protection (TAP) **clicksPermitted** events as TheHive alerts, enabling you to track users who clicked on malicious links that were **not** blocked by Proofpoint.

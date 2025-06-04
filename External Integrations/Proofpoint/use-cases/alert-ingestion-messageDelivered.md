@@ -1,3 +1,8 @@
+---
+title: Alert ingestion for Proofpoint TAP alerts – Message Delivered
+description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
+tags: [proofpoint, tap, messagesDelivered, alert-ingestion]
+---
 # Proofpoint TAP Alert Feeder for TheHive - messages delivered
 
 This Alert Feeder ingests Proofpoint Targeted Attack Protection (TAP) **messagesDelivered** events as TheHive alerts, enabling you to track threats that have actually reached users’ mailboxes and may require investigation or response.
