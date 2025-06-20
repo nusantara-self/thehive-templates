@@ -1,5 +1,9 @@
 # CrowdStrike Integration
 
+<div align="center">
+  <img src="assets/logo.png" alt="CrowdStrike Falcon logo" width="240">
+</div>
+
 This document aims at documenting some ways to connect **TheHive** and **Cortex** with **CrowdStrike Falcon** in order to ingest alerts, enrich investigations, and perform response actions directly from TheHive.
 
 Feel free to read the blog post [**“Cortex-Analyzers 3.4.0 – Unleashing the Falcon”**](https://strangebee.com/blog/cortex-analyzers-3-4-0-unleashing-the-falcon/) for an overview of all CrowdStrike analyzers & responders.
