@@ -29,7 +29,7 @@
             "status": "Waiting",
             "flag": false,
             "order": 0,
-            "mandatory": false,
+            "mandatory": true,
             "extraData": {}
         },
         {
