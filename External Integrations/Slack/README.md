@@ -1,20 +1,18 @@
-# Slack Integration
+# Slack Integration with TheHive
 
-This directory explains how to connect **TheHive** with **Slack** so security teams
-can be notified about new alerts/cases or other changes.
+This topic explains how **Slack** integrates with **TheHive**.
 
----
+## About Slack
+Slack is a team collaboration platform offering channels, direct messaging, file sharing, and a rich app ecosystem for workflows and incident response.
 
-## 1. Use-Cases
+## Responders
+Cortex responders for Slack perform automated actions directly from TheHive.
+| Responder | Purpose |
+| --- | --- |
+| Slack_CreateChannel | Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and/or case description. |
 
-Below are step-by-step guides for some common use-cases:
+Find the complete list of Slack responders and their configuration details in the [Cortex Neurons documentation](https://thehive-project.github.io/Cortex-Analyzers/responders/Slack/) as well as its [source code](https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/Slack).
 
-* [Notify a Slack channel on alert creation](use-cases/slack-notifier-alert-creation.md)
-* [Notify a Slack channel on case assignee change](use-cases/slack-case-assignee-change.md)
-
----
-
-## 2. Resources
-
-* TheHive → Slack | [How to configure Slack Notifier](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-notifications/notifiers/slack/)
-* [Slack API](https://api.slack.com/)
+## Next steps
+* [slack-case-assignee-change.md](use-cases/slack-case-assignee-change.md)
+* [slack-notifier-alert-creation.md](use-cases/slack-notifier-alert-creation.md)
