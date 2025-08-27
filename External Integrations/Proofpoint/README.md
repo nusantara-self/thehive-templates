@@ -20,7 +20,7 @@ If you ingest TheHive alerts via your SIEM, official **Splunk** or **Elastic** i
 
 ### Method 3: External scripts
 
-You can build orUse a lightweight connector that polls or subscribes to Proofpoint APIs/webhooks and creates **TheHive Alerts** in real time. Make sure to customize alerts title, description, tags, observables extraction and TTPs as needed.
+You can build or use a connector that polls or subscribes to Proofpoint APIs/webhooks and creates **TheHive Alerts** in real time. Make sure to customize alerts title, description, tags, observables extraction, custom fields and TTPs as needed.
 
 ## Analyzers
 Cortex analyzers enrich investigations in TheHive with contextual data from the product APIs.
